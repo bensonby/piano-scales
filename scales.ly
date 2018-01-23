@@ -8,9 +8,8 @@
     title = "Complete ABRSM Piano Exam Scales"
   }
   \bookpart {
-    \score { \header { piece = "Scales" }
-      \c-major-both
-    }
+    \markup { Scales }
+    \score { \c-major-both }
     \score { \g-major-both }
     \score { \d-major-both }
     \score { \a-major-both }
@@ -25,9 +24,8 @@
     \score { \ges-major-both }
   }
   \bookpart {
-    \score { \header { piece = "Contrary-Motion Scales" }
-      \c-major-both
-    }
+    \markup { Contrary-Motion Scales }
+    \score { \c-major-both }
   }
 }
 
@@ -37,9 +35,9 @@
     title = "ABRSM Grade 1 Piano Exam Scales"
   }
   \bookpart {
-    \score { \header { piece = "Scales" }
-      \c-major-right
-    }
+    \markup { Scales }
+    \markup { \disclaimer }
+    \score { \c-major-right }
     \score { \c-major-left }
     \score { \g-major-right }
     \score { \g-major-left }
@@ -49,8 +47,8 @@
     \score { \f-major-left }
   }
   \bookpart {
-    \score { \header { piece = "Contrary-Motion Scales" }
-      \c-major-both
-    }
+    \markup { Contrary-Motion Scales }
+    \markup { \disclaimer }
+    \score { \c-major-both }
   }
 }

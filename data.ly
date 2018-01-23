@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+disclaimer = #"Please refer to ABRSM piano syllabus for the details (e.g. number of octaves, articulations)"
+
 ct = \clef treble
 cb = \clef bass
 
